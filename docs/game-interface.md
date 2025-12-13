@@ -4,15 +4,35 @@ Welcome to the heart of the PUM Companion app: the in-game interface. This is wh
 
 ![gameplay](assets/screenshots/gameplay.png)
 
-## Explore Each Section
+---
 
-Want to learn more about each part of the in-game interface? Check out their specific pages:
+## Interface Layouts
 
-- [Plot Tracks](plot-tracks.md): Edit and visualize your story’s structure.
-- [Oracles](oracles.md): Access oracles, random tables, and decks of cards.
-- [Log Panel](log-panel.md): Where you read and write your adventure’s journal.
-- [Entities Overview](entities-overview.md): Manage your characters, locations, and compendiums.
-- [Plot Nodes](plot-nodes.md): Manage and preview your plot nodes with ease.
+The interface automatically adjusts to your screen size, collapsing the panels as needed, and allowig you to slide vertical lines to resize them. You can also control the visibility of each panel and resize certain areas manually by dragging the thick dividers between them.
+
+![alt text](assets/screenshots/gameplay-resizables.png)
+
+1. Collapse Plot Track (upwards)
+2. Oracle Panel Rollout (left side)
+3. Plot Nodes Panel Rollout (right side)
+4. Dice Roller Panel toggle (bottom)
+5. Log/Entities divider (horizontal) - sliding to an extreme edge fully hides
+6. Log Area Writing divider (vertical)
+
+### Monitors
+Panels are shown side by side, giving you a broad view of your adventure. Starting at 1920x1080 resolution, all panels are visible at once. Typically using the app in window mode allows for multi-tasking, and fits usually the oracles panel to become visible and hides the plot nodes instead.
+
+![large screens](assets/screenshots/gameplay-desktop.png)
+
+### Tablets
+Panels may stack or slide out as needed, keeping things clear but compact.
+
+![gameplay-tablet](assets/screenshots/gameplay-tablet.png)
+
+### Smartphones
+The interface simplifies, showing one main panel at a time. Menus and panels slide in and out so you’re never overwhelmed.
+
+![gameplay-smartphone](assets/screenshots/gameplay-smartphone.png)
 
 ---
 
@@ -70,25 +90,6 @@ Search through your journal entries and entity descriptions, as well as quick-ac
 - **Enter** (in Global Search): Open and navigate directly to the selected entity.
 - **Shift + Enter** (in Global Search): Speak as the selected character.
 
-## Interface Layouts
-
-The interface automatically adjusts to your screen size, collapsing the panels as needed, and allowig you to slide vertical lines to resize them.
-
-### Monitors
-Panels are shown side by side, giving you a broad view of your adventure. Starting at 1920x1080 resolution, all panels are visible at once. Typically using the app in window mode allows for multi-tasking, and fits usually the oracles panel to become visible and hides the plot nodes instead.
-
-![large screens](assets/screenshots/gameplay-desktop.png)
-
-### Tablets
-Panels may stack or slide out as needed, keeping things clear but compact.
-
-![gameplay-tablet](assets/screenshots/gameplay-tablet.png)
-
-### Smartphones
-The interface simplifies, showing one main panel at a time. Menus and panels slide in and out so you’re never overwhelmed.
-
-![gameplay-smartphone](assets/screenshots/gameplay-smartphone.png)
-
 ---
 
 ## Keyboard Shortcuts
@@ -100,3 +101,15 @@ The interface simplifies, showing one main panel at a time. Menus and panels sli
 - **Ctrl + Tab** or **Ctrl + Shift + Tab**: Move forward or backward across open tabs.
 
 These shortcuts are designed to streamline your workflow and enhance productivity within the game interface.
+
+---
+
+## Explore each section further
+
+Want to learn more about each part of the in-game interface? Check out their specific pages:
+
+- [Plot Tracks](plot-tracks.md): Edit and visualize your story’s structure.
+- [Oracles](oracles.md): Access oracles, random tables, and decks of cards.
+- [Log Panel](log-panel.md): Where you read and write your adventure’s journal.
+- [Entities Overview](entities-overview.md): Manage your characters, locations, and compendiums.
+- [Plot Nodes](plot-nodes.md): Manage and preview your plot nodes with ease.
