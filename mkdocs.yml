@@ -52,6 +52,7 @@ nav:
     - Main Menu: pum-main-menu.md
     - Guided Setup: pum-new-game-wizard.md
     - Analog Mode: pum-analog-mode.md
+    - Game Interface: game-interface.md
     - Log Panel: log-panel.md
     - Entities Overview: entities-overview.md
     - Plot Tracks: plot-tracks.md
@@ -60,6 +61,7 @@ nav:
     - Oracles: oracles.md
     - Application Settings: pum-application-settings.md
     - Saving & Loading: pum-saving-loading.md
+    - Sharing your game: sharing-your-game.md
     - Cloud Backup: pum-cloud-backup.md
     - Dice Formula Expressions: dice-formulas.md
     - Random Tables: random-tables.md

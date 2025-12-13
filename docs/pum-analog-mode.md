@@ -1,30 +1,14 @@
 
 # Analog Mode
 
-Analog Mode is a special part of the app designed for quick inspiration, improvisation, and creative support. In this mode, nothing is saved—it's perfect for brainstorming, solo writing, or running tabletop sessions as a GM screen.
+Analog Mode is meant for combining the power of PUM Companion's oracles, random tables, and dice roller with your physical tabletop RPG sessions or storytelling sessions. It provides a lightweight interface to quickly get inspiration, answer questions, and roll dice without the need to create or save a full game.
 
----
+<p style="text-align: center;">
+  <img src="/pumc-online-hub/assets/screenshots/analog-mode.png" alt="analog-mode" style="border-radius: 12px; box-shadow: 0 2px 8px rgba(110,80,60,0.07); margin: 1.5em 0;" />
+</p>
 
-## Interface Overview
+Using the oracles will trigger on cinematic mode showing the results of the oracles and random tables in full screen for easy reading during your tabletop sessions.
 
-- **Top Bar:** At the top (on larger screens), you'll find the menu button and language selector, just like in the main app.
-- **Oracles Panel:** The main area displays oracles—tools that answer your story questions, generate random events, or provide creative prompts. You can type a question and get instant results.
-- **Random Tables:** Access tables for names, events, or other ideas. Roll on any table to get a result.
-- **Dice Roller:** If enabled, a floating dice button appears. Tap it to open or hide the dice roller, where you can roll digital dice for any RPG system.
-- **Decks Overview:** Draw cards for inspiration if you have decks enabled.
+Owning the [3D Dice extra](https://jeansenvaars.itch.io/pumc-3d-dice) enables the dice roller in analog mode, allowing you to roll beautiful 3D dice in Analog Mode as well.
 
----
-
-## How to Use Analog Mode
-
-1. **Enter Analog Mode:** Select Analog Mode from the Main Menu.
-2. **Ask Questions:** Type your story or game question in the oracles panel and tap to get an answer.
-3. **Roll on Tables:** Browse and roll on any random table for names, events, or creative ideas.
-4. **Use the Dice Roller:** Tap the dice icon to open the dice roller, roll as needed, and close it when done.
-5. **Draw Cards:** If available, use the decks overview to draw cards for more inspiration.
-
-**Note:** Nothing you do in Analog Mode is saved. It's designed for fast, disposable use—ideal for live play, brainstorming, or when you want to keep things simple.
-
----
-
-*Add annotated screenshots for each tool and workflow as you see fit.*
+Owning the [Extra Decks & Cards extra](https://jeansenvaars.itch.io/pum-companion-extra-decks-cards) unlocks using your extra decks in Analog Mode for even more variety and inspiration.
