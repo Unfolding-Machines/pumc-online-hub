@@ -77,7 +77,7 @@ Git clone this repository, navigate to your local files or load VSCode, then:
 
 Install mkdocs: `pip install mkdocs mkdocs-material`
 
-Preview and run with: `mkdocs serve`
+Preview and run with: `mkdocs serve --livereload`
 
 ### by JeansenVaars (Unfolding Machines) and the community
 Enjoy!
