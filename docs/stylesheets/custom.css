@@ -27,3 +27,13 @@
 .md-typeset h6 {
   color: #f3dfb0; /* Very light brown */
 }
+
+.gallery-table {
+  overflow-x: auto;
+  margin: 1.5em 0;
+}
+
+.gallery-table table {
+  min-width: 1200px;
+  width: max-content;
+}

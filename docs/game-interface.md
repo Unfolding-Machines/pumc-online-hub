@@ -19,31 +19,22 @@ The interface automatically adjusts to your screen size, collapsing the panels a
 5. Log/Entities divider (horizontal) - sliding to an extreme edge fully hides
 6. Log Area Writing divider (vertical)
 
-### User-Interface Settings
+| ![full-screen](assets/screenshots/desktop-1920.png) | ![floating-medium](assets/screenshots/gameplay-desktop.png) | ![gameplay-tablet](assets/screenshots/gameplay-tablet.png) | ![gameplay-smartphone](assets/screenshots/gameplay-smartphone.png) |
+|---|---|---|---|
+| Full Screen / Large (≥1920×1080) | Floating Window / Medium | Tablets | Smartphones |
+| Panels shown side by side; all panels visible by default, unless disabled by setting. Entity tabs remain in text format. | Most frequently one of the panel behaves as floating rollout, while other remain visible on screen. | Typically log panel and entities overview will be visible, with both panels in rollout mode. | With one view at a time, showing the log panel by default, the tabs become icons. |
 
-![settings-ui](assets/screenshots/settings-ui.png)
+## Focus Mode Layout (Crystal Theme DLC feature)
 
-- Full screen: Hides borders (platform specific)
-- Borderless mode: Hides window borders (desktop only)
-- Use large fonts slider: Adjust the size of the text in the interface for better readability (limited to in-game text)
-- Panels always collapsed: Keep the Oracle and Plot Nodes as rollout panels instead of expanding on large screens.
-- Log area always as tab: Keeps the log area as a tab instead of a split view with entities on large screens.
+Focus Mode is a special layout for the log panel that minimizes distractions for your storytelling, hiding unnecessary UI elements and emphasizing the log area.
 
+![focus-mode-button](assets/screenshots/focus-mode-button.png)
 
-### Monitors
-Panels are shown side by side, giving you a broad view of your adventure. Starting at 1920x1080 resolution, all panels are visible at once. Typically using the app in window mode allows for multi-tasking, and fits usually the oracles panel to become visible and hides the plot nodes instead.
+While the prompt/proposal buttons are visible, focus mode (activated from the top toolbar) fades the rest of the UI so you can review the timeline with fewer distractions.
 
-![large screens](assets/screenshots/gameplay-desktop.png)
+![focus-mode](assets/screenshots/focus-mode.png)
 
-### Tablets
-Panels may stack or slide out as needed, keeping things clear but compact.
-
-![gameplay-tablet](assets/screenshots/gameplay-tablet.png)
-
-### Smartphones
-The interface simplifies, showing one main panel at a time. Menus and panels slide in and out so you’re never overwhelmed.
-
-![gameplay-smartphone](assets/screenshots/gameplay-smartphone.png)
+Get Crystal Theme: [itch.io](https://jeansenvaars.itch.io/pumc-crystal) to unlock Focus Mode.
 
 ---
 
@@ -81,6 +72,16 @@ Clicking the menu button (☰) in the top bar opens a panel with helpful options
 - [Share your story](sharing-your-game.md): Share your game in a PDF or markdown text format.
 - **Back to main menu:** Return to the main menu/dashboard (prompt to save first).
 - **Exit Game:** Close the app (prompt to save before exiting).
+
+### UI Settings
+
+![settings-ui](assets/screenshots/settings-ui.png)
+
+- Full screen: Hides borders (platform specific)
+- Borderless mode: Hides window borders (desktop only)
+- Use large fonts slider: Adjust the size of the text in the interface for better readability (limited to in-game text)
+- Panels always collapsed: Keep the Oracle and Plot Nodes as rollout panels instead of expanding on large screens.
+- Log area always as tab: Keeps the log area as a tab instead of a split view with entities on large screens.
 
 ---
 
