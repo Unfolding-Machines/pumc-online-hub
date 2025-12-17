@@ -28,6 +28,12 @@
   color: #f3dfb0; /* Very light brown */
 }
 
+/* Make bold text stronger and colored */
+.md-typeset strong, strong {
+  font-weight: 900;
+  color: #b67616; /* Use the main brown, or change as desired */
+}
+
 .gallery-table {
   overflow-x: auto;
   margin: 1.5em 0;
