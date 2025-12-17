@@ -29,37 +29,37 @@ Modified proposals invoke alterations to the current plot beat based on your inp
 Generated Plot Beats are added to the log as entries with a special highlight and an "Advance" button. When you confirm that a plot beat has occurred in your story, tap "Advance" to promote it to the active plot track. This helps keep your story organized and ensures that your plot progresses smoothly (go to: [Plot Tracks](plot-tracks.md) to learn more).
 
 ## Log area and log entries
-- The scrollable timeline is built with the same entries you see in-game: text, answers, card art, shared images, oracle results, dice rolls, and snapshots of NPC portraits.
-- Each entry can be tapped to open a simple viewer or the richer Visual Mode overlay, which stitches text, answers, and images into an animated highlight.
-- Images and card art stay clickable; you can pin them to the board (Pin Cards), send cards to characters, or download attachments and audio clips directly from the entry’s context menu.
-- Entries that represent candidate plot beats can be promoted so they join the active plot track, or rolled back if the plot changes.
 
-## Entry Composer
-- Tap or drag the portrait to the left of the composer to choose who is speaking; the same menu lets you pick a character from the cast or type a new “spontaneous speaker” name.
-- Long-press the portrait to jump into that character’s detail view.
-- The typing surface grows and shrinks as you drag the handle above it—expanded mode shows a formatting toolbar with bold, italic, headers, bullet/numbered lists, code blocks, and quick dice placeholders so you can style entries in Markdown-like notation.
-- When the composer is compact, the send arrow button appears to the right; when the composer is tall, the send button sits beside the text field for more comfortable editing.
-- The primary send button logs whatever text is in the field along with the selected speaker. Auto-formatting keeps numbered and bulleted lists going when you press Enter.
-- Audio recording buttons are part of the composer: start recording to capture voice notes, stop to automatically attach the resulting audio file to a new log entry, and restart if you want to re-record.
-- A drag handle above the composer lets you resize the input area so you can shrink it for more history or expand it when you want to write longer passages.
+The log area displays all entries in chronological order. Each entry can contain text, images, audio notes, dice rolls, oracle answers, and card draws.
 
-## Entry Actions (desktop context menu / long press)
-- View opens the entry in Visual Mode or Image Viewer so you can re-read the text and examine attached art without leaving the timeline.
-- Pin Cards keeps an image or card stack pinned to the board as an overlay for reference.
-- Send Cards shares the card art from the entry to another character’s image gallery and opens their detail tab.
-- Insert adds a new blank entry right after the selected one and begins editing automatically, so you can jot follow-up notes in position.
-- Promote marks a user text entry as a confirmed plot beat (useful when you want to record something that drives the plot forward).
-- Copy copies the entry’s speaker, title, text, and answer so you can paste it elsewhere.
-- Edit/Describe switches the composer into edit mode for that entry; a warning dialog protects any text you already have in the composer from being overwritten.
-- Reroll fires up the original oracle or dice roll so you can try again; Download lets you save attached audio or image files to disk.
-- Rollback undoes a confirmed plot entry if the plot track hasn’t advanced yet, and Delete removes an entry entirely (audio files tied to it are also cleaned up).
+![log-entries](assets/screenshots/log-entries.png)
 
-## Dice Roller
-- Enable the Dice Roller under Settings → Log Area to show a familiar roller widget under the timeline. Dice results get logged automatically with optional roll-detail counts if that setting is active.
+Interacting with log entries can be done through the three-dot menu or by long-pressing on the entry (on touch devices). This opens a context menu with various actions you can perform on the entry:
+
+- **View**: Opens the entry in Visual Cinematic Mode for replaying text and examining attached media.
+- **Pin Viewer/Cards** (with images): Pins images or card stacks to the board as overlays for quick access.
+- **Insert**: Adds a new blank entry after the selected one and begins editing automatically.
+- **Copy**: Copies the entry's content for pasting elsewhere.
+- **Edit**: Switches the composer into edit mode for that entry.
+- **Describe** (for oracle/dice rolls): edit mode for adding additional context or description.
+- **Reroll** (if random entry): Re-invokes the original oracle or dice roll.
+- **Download** (with media): Saves attached audio or image files to disk.
+- **Delete** (if allowed): Removes the entry entirely.
+- **Advance** (for plot beats): Promotes a user text entry as a confirmed plot beat.
+
+Theere may also be section titles which are fixed:
+
+![log-sec-header](assets/screenshots/log-sec-header.png)
+
+This can be toggled with the Log Setting "Show section titles".
 
 ## Log Area Settings
-Adjust these toggles via Settings → Log Area to tailor the panel:
-1. **Show Word Count** – Displays live word counts for the composer.
+
+There are several settings to customize the log area experience. Access these settings by clicking the hamburger menu in the top-right corner of the screen, settings, then "Log area" tab.
+
+![log-settings](assets/screenshots/log-settings.png)
+
+1. **Show Word Count** – Displays live word counts for the entire journal written by the player. It only counts the text part of entries, i.e. not the text generated from dice rolls, random tables, or oracle answers.
 2. **Show GM Portrait** – Displays the GM avatar alongside game-master entries.
 3. **Show Character Portraits** – Shows character portraits by each entry when available.
 4. **Show Timestamps** – Adds timestamps to each entry in the timeline.
@@ -69,7 +69,40 @@ Adjust these toggles via Settings → Log Area to tailor the panel:
 8. **Show Dice Roller** – Toggles the roller widget below the timeline.
 9. **Include Roll Details** – Appends formulas and dice details to each dice-roll entry when enabled.
 
-## Tips
-- Use the log to track both story beats and mechanical outcomes (dice rolls, oracle answers, cards dragged in from quests).
-- Regularly review the timeline in focus mode to see which plot beats are still waiting for confirmation and which have already advanced.
-- The panel auto-saves and keeps your audio/image attachments safe, but you can download or pin anything you need for later reference.
+## Entry Writing and Editing (input)
+
+![log-input](assets/screenshots/log-input.png)
+
+This is where you write new, edit existing, and submit log entries. It supports basic **Markdown** formatting for text styling:
+
+| Feature                | Markdown Example                      | Keyboard Shortcut        |
+|------------------------|---------------------------------------|-------------------------|
+| **Bold**               | `**bold text**`                       | Ctrl+B / Cmd+B          |
+| *Italic*               | `*italic text*`                       | Ctrl+I / Cmd+I          |
+| Header 1               | `# Heading 1`                         | N/A                  |
+| Header 2               | `## Heading 2`                        | N/A                  |
+| Header 3               | `### Heading 3`                       | N/A                  |
+| Left-aligned Header 2  | `##l A new Day`                       | N/A                     |
+| Bullet List            | `- Item one`<br>`- Item two`          | Press enter to auto-add new item            |
+| Number List            | `1. First`<br>`2. Second`             | Press enter to auto-add next number            |
+| Code Line              | `` `inline code` ``                   | N/A                  |
+| Code Block             | <pre>```multi-line text paragraph```</pre> | N/A            |
+
+### Speaker/Microphone Button
+
+**Microphone Input Disabled**
+
+For video streamers who wish to "show" who is speaking, press and hold this button to visually show the portrait of the speaker character over the screen until you release. It does not do anything to the log entry itself.
+
+**Microphone Input Enabled**
+
+The speaker button will become a microphone button. Press and hold to record audio input for the log entry. Release to stop recording and attach the audio clip to the entry.
+
+To enable voice notes, go to Settings → Microphone Input and toggle it on, then choose your preferred input device.
+
+![voice-notes](assets/screenshots/voice-notes.png)
+
+## Dice Roller
+Enable the Dice Roller by clicking the floating dice icon at the bottom right of the log panel.
+
+If you have 3D Dice Extra enabled (go to: [3D Dice Customization](custom-3d-dice.md) to learn more), you will see the enhanced roller with 3D dice icons, and if imported, any custom dice you have added. You may scroll horizontally to see all available dice types.

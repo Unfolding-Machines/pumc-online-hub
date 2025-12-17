@@ -82,6 +82,19 @@ Clicking the menu button (☰) in the top bar opens a panel with helpful options
 - Use large fonts slider: Adjust the size of the text in the interface for better readability (limited to in-game text)
 - Panels always collapsed: Keep the Oracle and Plot Nodes as rollout panels instead of expanding on large screens.
 - Log area always as tab: Keeps the log area as a tab instead of a split view with entities on large screens.
+- Visual Model (Cinematic Overlay): Enable cinematic overlay for oracles, random tables, and card draws. Read below for more details.
+
+### Visual Model (Cinematic Overlay)
+
+Making use of any plot beat button, oracle, random table, or drawing cards can trigger a cinematic overlay that displays a full-screen image to set the mood and progressively show their content, depending on the setting defined.
+
+There are three settings for the cinematic overlay:
+
+- **Disabled:** No cinematic overlay is shown.
+- **Typewriter:** The cinematic overlay reveals text progressively, simulating a typewriter effect.
+- **Presentation:** The cinematic overlay displays the full content at once.
+
+![cinematic-mode](assets/screenshots/cinematic-mode.png)
 
 ---
 
