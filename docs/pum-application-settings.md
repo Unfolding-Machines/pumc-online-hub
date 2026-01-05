@@ -6,6 +6,7 @@ The Application Settings menu lets you customize your PUM Companion experience. 
 - **User Interface:** Change theme, font size, and layout options.
 - **Log Area:** Configure how logs are displayed and managed.
 - **Cloud Sync:** Set up Google Drive integration for backups.
+- **AI Settings:** Configure AI providers and API keys (Premium Extra). [Learn more about the AI Assistant](ai-assistant.md).
 - **Audio Settings:** Select input devices and adjust audio features.
 - **3D Dice:** Enable or customize 3D dice (if available).
 

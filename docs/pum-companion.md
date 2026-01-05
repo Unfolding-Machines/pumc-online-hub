@@ -46,3 +46,6 @@ Unlock advanced builder widgets to streamline your game setup and world-building
 
 ### [3D Dice](https://jeansenvaars.itch.io/pumc-3d-dice)
 Bring your dice rolls to life with beautiful 3D dice animations. Adds a tactile, visual element to your solo or group play.
+
+### [AI Assistant](https://jeansenvaars.itch.io/pum-companion)
+Unlock powerful AI-driven features to help you generate plot nodes, characters, locations, and narrative text. A creative partner for your solo adventures.
