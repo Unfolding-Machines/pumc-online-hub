@@ -46,6 +46,8 @@ extra_css:
 nav:
   - Welcome Page: index.md
   - PUM Companion: pum-companion.md
+  - PUM Lite (Free): pum-lite.md
+  - Lite vs Companion: pum-lite-vs-companion.md
   - About the Unfolding Machines: about-pum.md
   - Get the games (Links): get-the-games.md
   - PUM Companion Docs:

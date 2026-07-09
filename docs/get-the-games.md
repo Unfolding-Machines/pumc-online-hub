@@ -24,6 +24,14 @@ Find all official Unfolding Machine products, apps, and community resources here
 - [Google Play](https://play.google.com/store/apps/details?id=com.jeansensmachines.pum&hl=en)
 - [Apple App Store](https://apps.apple.com/de/app/pum-companion-rpg-storytelling/id6557070415)
 
+## 📓 PUM Lite App
+
+Free, streamlined edition of the PUM app for core solo RPG play. See [PUM Lite](pum-lite.md) for an overview and [Feature Parity](pum-lite-vs-companion.md) for a full comparison with PUM Companion.
+
+- **Itch.io:** *Coming soon*
+- **Google Play:** *Coming soon*
+- **Apple App Store:** *Coming soon*
+
 ## 🎲 Extras & Add-ons
 
 - [Extra Decks & Cards](https://jeansenvaars.itch.io/pum-companion-extra-decks-cards)

@@ -43,3 +43,76 @@
   min-width: 1200px;
   width: max-content;
 }
+
+/* Theme-aware support contact box */
+.md-typeset .pumc-support-box {
+  border-radius: 8px;
+  padding: 1.5em;
+  margin: 1.5em auto;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+[data-md-color-scheme="default"] .md-typeset .pumc-support-box {
+  background-color: #fcf8f2;
+  border: 2px solid #e6d3c3;
+  color: #3d2e24;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pumc-support-box {
+  background-color: #2d231c;
+  border: 2px solid #5c4a3a;
+  color: #e8ddd4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.md-typeset .pumc-support-box h3 {
+  margin-top: 0;
+  font-size: 1.3em;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pumc-support-box h3 {
+  color: #6e503c;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pumc-support-box h3 {
+  color: #e0b36a;
+}
+
+.md-typeset .pumc-support-box p {
+  margin: 0.5em 0;
+  font-size: 1.05em;
+  color: inherit;
+}
+
+.md-typeset .pumc-support-box__contact {
+  margin: 1em 0 0.5em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.md-typeset .pumc-support-box a {
+  text-decoration: underline;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pumc-support-box a {
+  color: #a05c3c;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pumc-support-box a {
+  color: #e8a870;
+}
+
+.md-typeset .pumc-support-box__note {
+  margin: 0;
+  font-size: 0.9em;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pumc-support-box__note {
+  color: #8c7060;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pumc-support-box__note {
+  color: #b8a090;
+}
