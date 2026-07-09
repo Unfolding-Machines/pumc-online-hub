@@ -19,7 +19,7 @@ These core features are included in PUM Lite and PUM Companion.
 | Game Creation Wizard | Yes | Yes | The app helps you create games from scratch and brainstorm. |
 | Analog Play | Yes | Yes | Play along your own physical dice and handwriting with the app. |
 | Episode Continuation | Yes | Yes | Bring to new plot carries over characters/plot tracks to new games. |
-| PDF Story Export | Yes | Yes | Lite includes a subtle watermark on exported story PDFs. |
+| PDF Story Export | Yes | Yes | Export your story journal as a shareable PDF file. |
 | Save Game Export | Yes | Yes | Save, share, backup your games in `.pumc` file format. |
 | Global Search | Yes | Yes | Quickly find entities and journal text (Ctrl+F / Ctrl+Space). |
 

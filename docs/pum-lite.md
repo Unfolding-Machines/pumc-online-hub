@@ -22,7 +22,7 @@ PUM Lite is ideal if you want to start playing quickly, keep things simple, and 
 - **Game Creation Wizard:** Set up new games and brainstorm from scratch
 - **Analog Play:** Use your own physical dice and handwriting alongside the app
 - **Episode Continuation:** Carry characters and plot tracks into new games
-- **PDF Story Export:** Export your journal as a PDF (with a subtle watermark)
+- **PDF Story Export:** Export your journal as a PDF
 - **Save Game Export:** Save, share, and back up games in `.pumc` format
 - **Global Search:** Find entities and journal text quickly (Ctrl+F / Ctrl+Space)
 - **Image Viewer:** View images attached to entities
