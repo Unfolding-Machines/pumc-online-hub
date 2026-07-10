@@ -50,8 +50,12 @@ For all official download links, see [Get the games (Links)](get-the-games.md).
 
 ---
 
-## Documentation
+## Documentation & Rules
 
-Most pages in this manual describe **PUM Companion** features. If a feature is marked as Companion-only in the [feature parity table](pum-lite-vs-companion.md), it is not available in PUM Lite.
+To help you get started playing right away, we have prepared a free, streamlined version of the PUM rules:
+
+*   👉 **[PUM Quick Rules & Gameplay Guide](rules-core-loop.md)** — Learn how to use Plot Beats, advance Plot Tracks, ask the Oracles, and manage your Plot Nodes in a solo RPG session.
+
+Most other pages in this manual describe **PUM Companion** features. If a feature is marked as Companion-only in the [feature parity table](pum-lite-vs-companion.md), it is not available in PUM Lite.
 
 For help or questions about either app, see the [Welcome Page](index.md) support section or join the [PUM Discord Community](https://discord.gg/k2rQMa33Kq).

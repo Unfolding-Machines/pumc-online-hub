@@ -9,6 +9,12 @@
   This is the official knowledge base and support manual for <b>PUM Companion</b> and <b>PUM Lite</b>—the ultimate apps to play Solo RPG with the Plot Unfolding Machine. Here you’ll find everything you need to master the app with tabletop RPG setup, storytelling, and journaling, whether you’re a curious beginner or a seasoned solo adventurer.
 </div>
 
+<div style="margin: 1.5em 0; text-align: center;">
+  <a href="rules-core-loop/" class="md-button md-button--primary" style="font-weight: bold; margin-right: 10px;">📖 PUM Quick Rules (Free)</a>
+  <a href="pum-lite/" class="md-button" style="margin-right: 10px;">📱 PUM Lite (Free App)</a>
+  <a href="pum-companion/" class="md-button">💎 PUM Companion (Full App)</a>
+</div>
+
 <div style="padding-top: 1.5em; text-align: center;">
   <ul style="list-style: none; margin: 0 auto; padding: 0; display: inline-block; text-align: left;">
     <li style="margin: 0; padding: 0;">💬 <a href="https://discord.gg/k2rQMa33Kq">Join the PUM Discord Community</a></li>

@@ -50,6 +50,13 @@ nav:
   - Lite vs Companion: pum-lite-vs-companion.md
   - About the Unfolding Machines: about-pum.md
   - Get the games (Links): get-the-games.md
+  - PUM Gameplay Quick Reference Rules:
+    - Core Loop: rules-core-loop.md
+    - Plot Beats: rules-plot-beats.md
+    - The Oracles: rules-oracles.md
+    - Plot Tracks: rules-plot-tracks.md
+    - Plot Nodes: rules-plot-nodes.md
+    - Gameplay Example: rules-example.md
   - PUM Companion Docs:
     - Main Menu: pum-main-menu.md
     - Guided Setup: pum-new-game-wizard.md
@@ -74,3 +81,10 @@ nav:
     - Markdown Text Styling: markdown-styling.md
     - PDF Reader: pdf-reader.md
     - Entity Image Editor: entity-image-editor.md
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
