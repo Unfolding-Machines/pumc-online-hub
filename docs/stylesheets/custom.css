@@ -116,3 +116,99 @@
 [data-md-color-scheme="slate"] .md-typeset .pumc-support-box__note {
   color: #b8a090;
 }
+
+/* PUM Lite vs Companion parity table */
+.md-typeset .pum-parity-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  align-items: center;
+  margin: 1.25em 0 1.5em;
+  padding: 0.75em 1em;
+  border-radius: 8px;
+  font-size: 0.92em;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pum-parity-legend {
+  background-color: #fcf8f2;
+  border: 1px solid #e6d3c3;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pum-parity-legend {
+  background-color: #2d231c;
+  border: 1px solid #5c4a3a;
+}
+
+.md-typeset .pum-parity-table-wrap {
+  overflow-x: auto;
+  margin: 1em 0 1.5em;
+}
+
+.md-typeset .pum-parity-table-wrap table th:nth-child(2),
+.md-typeset .pum-parity-table-wrap table th:nth-child(3),
+.md-typeset .pum-parity-table-wrap table td:nth-child(2),
+.md-typeset .pum-parity-table-wrap table td:nth-child(3) {
+  text-align: center;
+  white-space: nowrap;
+  min-width: 6.5rem;
+}
+
+.md-typeset .pum-yes,
+.md-typeset .pum-no,
+.md-typeset .pum-diff,
+.md-typeset .pum-dlc {
+  display: inline-block;
+  padding: 0.15em 0.55em;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.95em;
+  line-height: 1.4;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pum-yes {
+  color: #1b5e20;
+  background-color: #e8f5e9;
+  border: 1px solid #a5d6a7;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pum-yes {
+  color: #a5d6a7;
+  background-color: #1b3d1f;
+  border: 1px solid #2e7d32;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pum-no {
+  color: #b71c1c;
+  background-color: #ffebee;
+  border: 1px solid #ef9a9a;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pum-no {
+  color: #ef9a9a;
+  background-color: #3d1f1f;
+  border: 1px solid #c62828;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pum-diff {
+  color: #6e503c;
+  background-color: #fff8e8;
+  border: 1px solid #e0b36a;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pum-diff {
+  color: #e0b36a;
+  background-color: #3d2e1a;
+  border: 1px solid #b67616;
+}
+
+[data-md-color-scheme="default"] .md-typeset .pum-dlc {
+  color: #4a148c;
+  background-color: #f3e5f5;
+  border: 1px solid #ce93d8;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .pum-dlc {
+  color: #ce93d8;
+  background-color: #2d1a3d;
+  border: 1px solid #7b1fa2;
+}
