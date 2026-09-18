@@ -26,9 +26,11 @@ For a general introduction to PUM Lite, see [PUM Lite](pum-lite.md).
 | Oracle System | <span class="pum-diff">PUM</span> | <span class="pum-diff">PUM+SUM+GUM</span> | Play with all the unfolding machines in the Companion version. |
 | Look & Feel | <span class="pum-diff">3 Themes</span> | <span class="pum-diff">7+ Themes</span> | Enjoy more variety of styles for the app and any future ones. |
 | New Features and updates | <span class="pum-diff">Basic</span> | <span class="pum-diff">Improving</span> | New features and community suggestions to improve the app. |
+| World Building mode | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Organize your library, assets, and campaigns. |
 | Advance Tables | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Complex nested tables, dice rolling in entries, and multi-call tables. |
 | Multi-Vault Support | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion supports organizing games in separate folders/vaults (Windows, macOS, Linux). |
 | Multi-Tab Journals | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion allows separating backstory/inventory/relationships. |
+| PopOut windows | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Detach journals, sheets, and PDFs. |
 | Templates and Files | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion lets you manage reusable characters, tables, and sheets. |
 | Entity Interlinking | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion supports hyperlinking entities together. |
 | Entity Classification | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Tag your entities to better organize and search through. |
