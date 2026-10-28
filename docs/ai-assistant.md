@@ -42,11 +42,33 @@ Before you can use AI features, you must activate them in the application settin
 
 Each game can have its own AI personality. You can configure these settings by clicking the **AI Settings (Robot Icon)** in the Game Interface or during the New Game Wizard.
 
-*   **Game Preferences:** Define the genre, setting, and system of your current game (e.g., "A cyberpunk d20 detective story set in a rainy Neo-Tokyo").
-*   **User Preferences:** Describe your preferred writing style (e.g., "Dark and gritty, focused on internal monologue" or "High-fantasy, epic and descriptive").
-*   **Image Style:** Set the visual aesthetic for generated images (e.g., "Oil painting, moody lighting" or "Digital art, vibrant colors").
+### Preferences
+
+*   **Game System & Universe:** Define the genre, setting, and system of your current game (e.g., "A cyberpunk d20 detective story set in a rainy Neo-Tokyo").
+*   **Writing Style Preferences:** Describe your preferred writing style (e.g., "Dark and gritty, focused on internal monologue" or "High-fantasy, epic and descriptive").
+*   **Image Style Preferences:** Set the visual aesthetic for generated images (e.g., "Oil painting, moody lighting" or "Digital art, vibrant colors").
+*   **Narrator Style / Voice ID:** Shown when a voice provider is set up, to direct how the narrator sounds.
 
 **Tip:** You can use the **Magic Wand** icons next to these fields to have the AI generate a suggestion for you based on your existing game data!
+
+Below the preferences, shortcuts open your **Plot Scope** (your game's premise, setting and priorities) and your **System Rules** (the mechanics the AI should know). Both help the AI a lot.
+
+### Output
+
+These settings balance what you get against what you spend.
+
+*   **Output depth:** How long and detailed AI answers are.
+*   **Visual consistency:** Lets the AI take your portraits and covers into account, so texts and images match how your characters and places look.
+    *   **Disabled (lower cost):** Portraits and covers are not used.
+    *   **Approximate (medium cost):** The AI looks at each portrait and cover once and remembers what it saw, so characters and places keep their features. This is the default.
+    *   **Faithful (higher cost):** Generated images also see the portraits and covers of who and what is in the scene, so the same character looks like the same person. This adds a small cost to every image. It needs an image model that accepts reference images (most OpenRouter image models, Google Gemini image models, OpenAI GPT Image, or ComfyUI with a [Reference Workflow](ai-providers.md#6-comfyui-advanced)). With other image models the option is unavailable and images are drawn from descriptions.
+*   **Generate images in entities / plot nodes:** Whether the AI also creates images when it creates characters, locations, documents, the gamemaster, or plot nodes.
+
+### Oracles & Creativity
+
+*   **AI Oracle Leverage:** How much the AI relies on PUM's oracles for its ideas: *Disabled* (AI only), *Simple* (the best single oracle), or *Advanced* (multiple oracles).
+*   **Creativity bias:** Lower leans towards logic and following instructions, higher towards unpredictable and creative ideas.
+*   **Show AI oracle rolls:** Displays the oracle rolls the AI makes in the cinematic overlay.
 
 ---
 
@@ -82,7 +104,7 @@ A dedicated AI Chat feature for brainstorming. You can talk to the AI to bounce 
 Found in the New Game Wizard, this feature allows you to create a complete game proposal in seconds. The AI will fill in your plot scope, suggest key characters and locations, and even draft initial plot nodes to get your adventure started immediately.
 
 ### 🖼️ Image Generation
-Either indirectly through creating Entities and Plot Nodes, or directly within a character or a location, you can generate images that match your specified style and description. The AI will create visuals that bring your world to life.
+Either indirectly through creating Entities and Plot Nodes, or directly within a character or a location, you can generate images that match your specified style and description. The AI will create visuals that bring your world to life. With **Visual consistency** on, your existing portraits and covers keep characters and places looking like themselves across new images.
 
 ---
 
