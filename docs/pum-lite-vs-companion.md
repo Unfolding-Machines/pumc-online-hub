@@ -25,29 +25,27 @@ For a general introduction to PUM Lite, see [PUM Lite](pum-lite.md).
 | Global Search | <span class="pum-yes">✓</span> | <span class="pum-yes">✓</span> | Quickly find entities and journal text (Ctrl+F / Ctrl+Space). |
 | Oracle System | <span class="pum-diff">PUM</span> | <span class="pum-diff">PUM+SUM+GUM</span> | Play with all the unfolding machines in the Companion version. |
 | Look & Feel | <span class="pum-diff">3 Themes</span> | <span class="pum-diff">7+ Themes</span> | Enjoy more variety of styles for the app and any future ones. |
-| New Features and updates | <span class="pum-diff">Basic</span> | <span class="pum-diff">Improving</span> | New features and community suggestions to improve the app. |
+| New Features and updates | <span class="pum-diff">Stable</span> | <span class="pum-diff">Improving</span> | New features and community suggestions to improve the app. |
 | World Building mode | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Organize your library, assets, and campaigns. |
-| Advance Tables | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Complex nested tables, dice rolling in entries, and multi-call tables. |
-| Multi-Vault Support | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion supports organizing games in separate folders/vaults (Windows, macOS, Linux). |
-| Multi-Tab Journals | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion allows separating backstory/inventory/relationships. |
+| Advanced Tables | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Complex nested tables, dice rolling in entries, and multi-call tables. |
+| Multiple Journals | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion allows separating backstory/inventory/relationships. |
 | PopOut windows | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Detach journals, sheets, and PDFs. |
-| Templates and Files | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion lets you manage reusable characters, tables, and sheets. |
+| Assets and Templates | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion lets you manage reusable characters, tables, and sheets. |
 | Entity Interlinking | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion supports hyperlinking entities together. |
-| Entity Classification | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Tag your entities to better organize and search through. |
-| Entity Plot Nodes | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Link plot nodes to Compendiums to expand your World Building. |
-| Entity PDF Export | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Export any of your entities into a shareable printable PDF file. |
+| Entity Tagging | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Tag your entities to better organize and search through. |
+| Plot Node Documents | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Link plot nodes to Compendiums to expand your World Building. |
+| Character PDF Export | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Export any of your entities into a shareable printable PDF file. |
 | Table Classification | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Organize tables in groups and perform bulk actions. |
-| Advanced Table Macros | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Enhance random tables with nested tables and in-line dice rolls. |
 | PDF Viewer | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | View PDFs attached to entities with bookmarks/search/text selection. |
-| PDF Sheet Conversion | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion converts PDF pages to editable character sheets and maps. |
+| PDF Sheet Conversion | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion converts PDFs and form-fillables to editable character sheets and maps. |
 | PDF Page Interlinking | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Links from journal entries to specific PDF pages for convenience. |
 | Voice Notes | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Record and play by voice and record your audio notes in the story. |
 | Image Editor | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Edit images by cropping, editing, and color tuning. |
 | Sheets and Maps | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Image Editor supports character tokens, adding texts, and drawing. |
 | Image and PDF Pinning | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Pin images and PDFs into floating convenient shortcuts on screen. |
-| Multiple-Log Spaces | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion supports separating text into multiple log journals. |
 | Multiple-Plot Tracks | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Create different Plot Tracks for your side-quests and threads. |
 | Custom Plot Tracks | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Customize and manage your Plot Tracks, or operate multiple in parallel. |
+| Multi-Vault Support | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion supports organizing games in separate folders/vaults (Windows, macOS, Linux). |
 | PUM Optional Rules | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Timed plot beat events and disrupted dice for PUM. |
 | Bulk Entity Management | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion bulk-creates and export entities and tables from files. |
 | Initiative Tracker | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Order your characters in a dynamic tracker for talking or fighting. |

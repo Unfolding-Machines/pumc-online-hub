@@ -1,6 +1,6 @@
 # PUM Companion
 
-**PUM Companion** is a digital app and system for creating and playing your own adventures—solo or with friends. Inspired by tools like the Mythic GM Emulator, PUM blends improvisational storytelling, random prompts, and RPG mechanics for a unique experience every time.
+**PUM Companion** is a digital app and story system for journaling and playing your own adventures—solo or with friends, frequently along a tabletop RPG system of your choice. PUM blends improvisational storytelling, random prompts, and RPG mechanics for a unique story every time.
 
 <p align="center">
   <img src="/pumc-online-hub/assets/screenshots/pumc-animated.gif" alt="PUMC Animated Demo" width="60%" style="border-radius: 12px; box-shadow: 0 2px 8px rgba(110,80,60,0.07); margin: 1.5em 0;" />
@@ -33,19 +33,19 @@ PUM Companion is available on multiple platforms and storefronts:
 
 ---
 
-## Available Extras
+## Extras (Purchaseable addons)
 
 ### [Extra Decks & Cards](https://jeansenvaars.itch.io/pum-companion-extra-decks-cards)
-Add a variety of new decks and cards for even more inspiration and random prompts. Perfect for players who want extra variety in their adventures.
+Play with your favorite decks of cards, tarot or any tabletop systems that offer cards digitally. Load the card images and bring them into play. Shuffle, draw, give cards to characters, and view the cards playing in action.
 
 ### [Crystal Theme](https://jeansenvaars.itch.io/pumc-crystal)
-Transform the look and feel of PUM Companion with the premium Crystal theme. Enjoy a fresh, modern interface and new visual options.
+Transform the look and feel of PUM Companion with the premium Crystal theme. Set your custom background image, visual effects, font styles and colors, and enjoy exclusive Theater of the Mind and Daydreaming mode for extra focus on your storytelling.
 
 ### [Builder Widgets](https://jeansenvaars.itch.io/pumc-builder-widgets)
-Unlock advanced builder widgets to streamline your game setup and world-building. These tools help you create, organize, and customize your stories faster.
+Unlock advanced builder widgets to streamline your game setup and world-building. These tools allow you set character sheet trackers, progress bars and clocks, play cards within the image editor or insert dynamic trackers in your texts.
 
 ### [3D Dice](https://jeansenvaars.itch.io/pumc-3d-dice)
 Bring your dice rolls to life with beautiful 3D dice animations. Adds a tactile, visual element to your solo or group play.
 
 ### [AI Assistant](https://jeansenvaars.itch.io/pumc-ai-assistant)
-Unlock powerful AI-driven features to help you generate plot nodes, characters, locations, and empower your narrative. A creative partner for your solo adventures.
+Unlock powerful AI-driven features to help you generate plot nodes, characters, locations, and empower your narrative. A creative partner for your solo adventures, customized by you to achieve your desired tone, feel, and art style.
