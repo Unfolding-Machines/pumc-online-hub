@@ -28,6 +28,7 @@ For a general introduction to PUM Lite, see [PUM Lite](pum-lite.md).
 | New Features and updates | <span class="pum-diff">Stable</span> | <span class="pum-diff">Improving</span> | New features and community suggestions to improve the app. |
 | World Building mode | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Organize your library, assets, and campaigns. |
 | Advanced Tables | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Complex nested tables, dice rolling in entries, and multi-call tables. |
+| Customizable Dice Roller | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Set up your own dice, faces, and roll buttons. |
 | Multiple Journals | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion allows separating backstory/inventory/relationships. |
 | PopOut windows | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Detach journals, sheets, and PDFs. |
 | Assets and Templates | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion lets you manage reusable characters, tables, and sheets. |
