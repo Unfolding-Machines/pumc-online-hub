@@ -96,6 +96,8 @@ Most cards read well as they are. If a game system's cards come out cluttered, a
 
 The **Card format** box in **Integrations** appears once you're connected, labeled with the running world's game system.
 
+Each game system keeps its own format. Load a world of another system and the box shows that system's format, or an empty box if it has none yet. Your other formats stay saved, and come back whenever a world of their system runs again. Only the running system's format is shown, so to back up or share a format, copy it from the box while a world of that system is connected.
+
 ### Generate a format with AI
 
 If you have the [AI Assistant](ai-assistant.md):
