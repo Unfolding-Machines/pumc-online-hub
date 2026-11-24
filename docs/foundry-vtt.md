@@ -9,9 +9,8 @@ Play with your character sheets in Foundry VTT and keep your journal in PUM Comp
 ## What You Need
 
 - **PUM Companion on a computer** (Windows, macOS or Linux). The integration isn't available on phones or tablets.
-- **Foundry VTT v14**, running a world you can open in your browser.
+- **Foundry VTT v14**, with your world running. You play in it as usual, in the Foundry app or a browser.
 - **The PUM Companion Bridge module**, installed and enabled in that world. Strongly recommended: without it, only plain chat and basic rolls come through, and most game systems' cards don't.
-- **Foundry open in a browser while you play.** The module reads each card as Foundry draws it, so it needs a browser with your world open. If you play solo, that's simply you playing.
 
 ---
 
@@ -84,7 +83,7 @@ While the integration is on, an anvil icon sits at the top of the game screen. H
 
 ## Card Pictures
 
-Switch on **Show Foundry cards as pictures** to see each card exactly as Foundry draws it, with its fonts, colors and dice icons, instead of as text.
+Switch on **Show cards as pictures** to see each card exactly as Foundry draws it, with its fonts, colors and dice icons, instead of as text.
 
 - The card's text is still kept with the entry, for search, copying and the AI Assistant.
 - Needs the PUM Companion Bridge module.
@@ -113,6 +112,56 @@ Paste it into the **Card format** box. It's saved as you type.
 
 Press **Copy example** for a starting point. A format is written in JSON and uses the card's CSS selectors, so it suits players comfortable with a bit of web inspection.
 
+### Example: D&D 5e
+
+A working format for the D&D 5e system (tested on Foundry 14.370). It turns item and feature cards into a bold title with their description, and attack and damage rolls into a title with the target and the roll's tags. Paste it into the **Card format** box while a D&D 5e world is running.
+
+```json
+{
+  "cards": [
+    {
+      "when": ".card-description",
+      "fields": {
+        "title": ".card-header .title",
+        "subtitle": ".card-header .subtitle",
+        "description": ".card-description .wrapper"
+      },
+      "template": "**{title}** — {subtitle}\n\n{description}"
+    },
+    {
+      "when": ".dice-roll",
+      "fields": {
+        "title": ".card-header .title",
+        "subtitle": ".card-header .subtitle",
+        "target": "target-pill label",
+        "damageType": ".tooltip-part .total .label",
+        "tags": ".pills .pill .label"
+      },
+      "template": "**{title}** — {subtitle} {damageType}\n*Target: {target}*\n*{tags}*"
+    },
+    {
+      "fields": {
+        "title": ".card-header .title",
+        "subtitle": ".card-header .subtitle",
+        "tags": ".pills .pill .label"
+      },
+      "template": "**{title}** — {subtitle}\n*{tags}*"
+    }
+  ],
+  "hide": [
+    ".message-header",
+    ".item-icon",
+    ".activity-icon",
+    ".chevron",
+    ".fa-tag",
+    ".fa-bullseye",
+    ".fa-dice",
+    ".dice-tooltip-collapser",
+    "damage-application"
+  ]
+}
+```
+
 Nothing from Foundry reaches your log while the **Integrations** tab is open, so you can roll sample cards without filling your journal.
 
 ---
@@ -121,12 +170,12 @@ Nothing from Foundry reaches your log while the **Integrations** tab is open, so
 
 | What you see | What to do |
 |--------------|------------|
-| **Can't reach the server** | Check that Foundry is running and the address is the one you open in your browser. Then press **Connect**. |
+| **Can't reach the server** | Check that Foundry is running and the address is the one you use to join your world. Then press **Connect**. |
 | **Server found, but no world is running** | Launch your world in Foundry, then press **Connect**. |
 | **This world has no user with that name** | Check the **User** field against Foundry's User Management. |
 | **Wrong password** | Check the password of the PUM Companion user in Foundry. |
 | **Connected, module off** | Enable **PUM Companion Bridge** in **Manage Modules**. |
-| Rolls arrive, but other cards don't | Make sure the module is enabled and your world is open in a browser. |
+| Rolls arrive, but other cards don't | Make sure **PUM Companion Bridge** is enabled in your world. |
 | A roll didn't arrive | Rolls made while the **Integrations** tab is open, or before connecting, aren't sent to the log. |
 
 ---
