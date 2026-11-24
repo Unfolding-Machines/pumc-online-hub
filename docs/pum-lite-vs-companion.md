@@ -29,6 +29,10 @@ For a general introduction to PUM Lite, see [PUM Lite](pum-lite.md).
 | World Building mode | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Organize your library, assets, and campaigns. |
 | Advanced Tables | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Complex nested tables, dice rolling in entries, and multi-call tables. |
 | Customizable Dice Roller | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Set up your own dice, faces, and roll buttons. |
+| Canvas Board | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Mind map and draft visually: lay out characters, threads, and ideas on a free canvas. |
+| Foundry VTT Integration | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Roll from your Foundry sheets and the results land in your journal (desktop). [Learn more](foundry-vtt.md). |
+| Text Coloring & Highlighting | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Color and highlight text in your logs and journals. |
+| Story Metrics | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Playtime, last played, and word counts for each story, and total playtime for your worlds. |
 | Multiple Journals | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion allows separating backstory/inventory/relationships. |
 | PopOut windows | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Detach journals, sheets, and PDFs. |
 | Assets and Templates | <span class="pum-no">✗</span> | <span class="pum-yes">✓</span> | Companion lets you manage reusable characters, tables, and sheets. |

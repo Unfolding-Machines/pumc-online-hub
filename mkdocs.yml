@@ -74,6 +74,7 @@ nav:
     - Saving & Loading: pum-saving-loading.md
     - Sharing your game: sharing-your-game.md
     - Cloud Backup: pum-cloud-backup.md
+    - Foundry VTT Integration: foundry-vtt.md
     - Dice Formula Expressions: dice-formulas.md
     - Random Tables: random-tables.md
     - Decks & Cards: decks-cards.md

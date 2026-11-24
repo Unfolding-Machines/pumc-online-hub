@@ -43,6 +43,7 @@ Free, streamlined edition of the PUM app for core solo RPG play. See [PUM Lite](
 ## 🛠️ Other Digital Tools
 
 - **Foundry VTT Module:** [Mythic GME Tools](https://foundryvtt.com/packages/mythic-gme-tools)
+- **Foundry VTT Module:** [PUM Companion Bridge](https://foundryvtt.com/packages/pum-companion-bridge), sends your Foundry rolls to your PUM Companion log ([how to use it](foundry-vtt.md))
 - **Play by the Writing (Espanso):** [itch.io](https://jeansenvaars.itch.io/play-by-the-writing)
 
 ## 💬 Join the Discord Community!
