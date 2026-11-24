@@ -10,7 +10,7 @@ Play with your character sheets in Foundry VTT and keep your journal in PUM Comp
 
 - **PUM Companion on a computer** (Windows, macOS or Linux). The integration isn't available on phones or tablets.
 - **Foundry VTT v14**, with your world running. You play in it as usual, in the Foundry app or a browser.
-- **The PUM Companion Bridge module**, installed and enabled in that world. Strongly recommended: without it, only plain chat and basic rolls come through, and most game systems' cards don't.
+- **The [PUM Companion Bridge](https://foundryvtt.com/packages/pum-companion-bridge) module**, installed and enabled in that world. Strongly recommended: without it, only plain chat and basic rolls come through, and most game systems' cards don't.
 
 ---
 
@@ -19,7 +19,7 @@ Play with your character sheets in Foundry VTT and keep your journal in PUM Comp
 ### 1. Install the module in Foundry
 
 1. In Foundry's setup screen, open **Add-on Modules → Install Module**.
-2. Search for **PUM Companion Bridge** and install it. If it doesn't appear, paste this manifest URL at the bottom of the window instead:
+2. Search for **PUM Companion Bridge** ([its Foundry page](https://foundryvtt.com/packages/pum-companion-bridge)) and install it. If it doesn't appear, paste this manifest URL at the bottom of the window instead:
    `https://github.com/saif-ellafi/foundryvtt-pumc-bridge/releases/latest/download/module.json`
 3. Launch your world, open **Game Settings → Manage Modules**, enable **PUM Companion Bridge** and save.
 
